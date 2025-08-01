@@ -2,4 +2,4 @@ name: "Run on push"
 description: "Index pages"
 runs:
   using: "node20"
-  main: "./scripts/build/index.js"
+  main: "scripts/build/index.js"
