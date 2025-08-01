@@ -71,8 +71,10 @@ var exports = __webpack_exports__;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const fs_util_1 = __nccwpck_require__(535);
 const main = async () => {
+    console.log(process.env);
     console.log(process.cwd());
     console.log(await (0, fs_util_1.getListDirs)('.'));
+    // Допустим я что-то написал тут очень важное что пиздец умереть смерть
 };
 void main();
 
