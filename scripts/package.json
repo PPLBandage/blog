@@ -20,6 +20,7 @@
         "typescript-eslint": "^8.38.0"
     },
     "dependencies": {
-        "@vercel/ncc": "^0.38.3"
+        "@vercel/ncc": "^0.38.3",
+        "yup": "^1.7.0"
     }
 }
