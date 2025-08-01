@@ -1,25 +1,27 @@
 {
-    "name": "scripts",
-    "version": "1.0.0",
-    "description": "Autoindex scripts",
-    "main": "index.js",
-    "scripts": {
-        "build": "ncc build src/index.ts --out build",
-        "start": "node build/index.js",
-        "dev": "ncc run src/index.ts"
-    },
-    "author": "AndcoolSystems",
-    "license": "MIT",
-    "devDependencies": {
-        "@eslint/js": "^9.32.0",
-        "@types/node": "^24.1.0",
-        "eslint": "^9.32.0",
-        "globals": "^16.3.0",
-        "jiti": "^2.5.1",
-        "typescript": "^5.8.3",
-        "typescript-eslint": "^8.38.0"
-    },
-    "dependencies": {
-        "@vercel/ncc": "^0.38.3"
-    }
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "Autoindex scripts",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky",
+    "build": "ncc build src/index.ts --out build",
+    "start": "node build/index.js",
+    "dev": "ncc run src/index.ts"
+  },
+  "author": "AndcoolSystems",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@types/node": "^24.1.0",
+    "eslint": "^9.32.0",
+    "globals": "^16.3.0",
+    "husky": "^9.1.7",
+    "jiti": "^2.5.1",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0"
+  },
+  "dependencies": {
+    "@vercel/ncc": "^0.38.3"
+  }
 }

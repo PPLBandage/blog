@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo << "Sosalovo";
+
+if git diff --cached --name-only | grep -E 'scripts/src/|scripts/package.json'; then
+  cd scripts && npm run build || exit 1
+fi
