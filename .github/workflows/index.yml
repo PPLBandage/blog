@@ -12,7 +12,9 @@ jobs:
       - name: Run index
         uses: ./
         env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMMIT_SHA: ${{ github.sha }}
 
       - name: Push New Index
         run: |
