@@ -1,1 +1,20 @@
-{"page_1":{"title":"Title","description":"Dessc","created":"2025-08-01T17:59:39Z","author":"Andcool-Systems","collaborators":[],"category":"","pinned":false},"page_2":{"title":"Title","description":"Dessc","created":"2025-08-20T23:50:38Z","author":"Andcool-Systems","collaborators":[],"category":"","pinned":true}}
+{
+    "page_1": {
+        "title": "Title",
+        "description": "Dessc",
+        "created": "2025-08-01T17:59:39Z",
+        "author": "Andcool-Systems",
+        "collaborators": [],
+        "category": "",
+        "pinned": false
+    },
+    "page_2": {
+        "title": "Title",
+        "description": "Desc",
+        "created": "2025-08-20T23:50:38Z",
+        "author": "Andcool-Systems",
+        "collaborators": [],
+        "category": "",
+        "pinned": true
+    }
+}
