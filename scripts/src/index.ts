@@ -75,7 +75,7 @@ const main = async () => {
         console.info(`✔️  Processed page ${page_name}`);
     }
 
-    writeFile('index.json', JSON.stringify(index_data));
+    writeFile('index.json', JSON.stringify(index_data, null, 4));
     console.info(`✔️  Processed ${affected_pages.length} pages`);
 };
 

@@ -34,7 +34,6 @@ export const commitDiff = async (
         { headers: { Authorization: `Bearer ${TOKEN}` } }
     );
 
-    console.log(head_sha, sha);
     if (!response.ok)
         throw new Error(`Cannot load commit diff: ${response.status}`);
 

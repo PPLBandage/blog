@@ -3420,7 +3420,6 @@ const commitDiff = async (repo_url, sha) => {
         throw new Error('Latest workflow not found');
     const head_sha = workflow_runs.workflow_runs.at(0)?.head_sha;
     const response = await fetch(`${GITHUB_API_URL}/repos/${repo_url}/compare/${head_sha}...${sha}`, { headers: { Authorization: `Bearer ${TOKEN}` } });
-    console.log(head_sha, sha);
     if (!response.ok)
         throw new Error(`Cannot load commit diff: ${response.status}`);
     return await response.json();
@@ -3640,7 +3639,7 @@ const main = async () => {
         };
         console.info(`✔️  Processed page ${page_name}`);
     }
-    (0, fs_util_1.writeFile)('index.json', JSON.stringify(index_data));
+    (0, fs_util_1.writeFile)('index.json', JSON.stringify(index_data, null, 4));
     console.info(`✔️  Processed ${affected_pages.length} pages`);
 };
 void main();
