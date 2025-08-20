@@ -3,7 +3,7 @@ import { CommitInfo, CompareRootObject, WorkflowRuns } from '../types';
 dotenv.config();
 
 const GITHUB_API_URL = process.env.GITHUB_API_URL ?? 'https://api.github.com';
-const TOKEN = process.env.TOKEN;
+const TOKEN = process.env.ACTIONS_RUNTIME_TOKEN;
 
 export const getCommitHistoryFile = async (
     repo_url: string,
