@@ -1,4 +1,5 @@
 {
     "title": "Hello world",
-    "description": "Lorem ipsum"
+    "description": "Lorem ipsum",
+    "category": "Категория"
 }
