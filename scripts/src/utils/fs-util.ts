@@ -1,4 +1,4 @@
-import { readdir, readFile, stat, writeFile } from 'fs/promises';
+import { readdir, readFile, stat, writeFile, access } from 'fs/promises';
 export { readFile, writeFile };
 
 export const getListDirs = async (target: string): Promise<string[]> => {
@@ -12,6 +12,15 @@ export const folderExists = async (path: string): Promise<boolean> => {
     try {
         const stats = await stat(path);
         return stats.isDirectory();
+    } catch {
+        return false;
+    }
+};
+
+export const fileExists = async (path: string): Promise<boolean> => {
+    try {
+        await access(path);
+        return true;
     } catch {
         return false;
     }

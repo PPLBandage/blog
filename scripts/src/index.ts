@@ -1,7 +1,7 @@
 import { validateMeta } from './utils/validators';
 import './utils/api';
 import { commitDiff, getCommitHistoryFile } from './utils/api';
-import { folderExists, readFile, writeFile } from './utils/fs-util';
+import { fileExists, folderExists, readFile, writeFile } from './utils/fs-util';
 
 const PAGES_DIR = 'pages';
 const COMMIT_SHA = process.env.COMMIT_SHA!;
@@ -43,6 +43,9 @@ const main = async () => {
             console.info(`🗑️  ${page_name} has been removed, skipping...`);
             continue;
         }
+
+        if (!(await fileExists(`${page_dir}/page.md`)))
+            throw new Error(`❌ Page.md not found in page ${page_name}`);
 
         const meta = await validateMeta(`${page_dir}/meta.json`);
         const file_history = await getCommitHistoryFile(

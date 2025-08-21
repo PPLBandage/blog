@@ -3442,7 +3442,7 @@ exports.getWorkflows = getWorkflows;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.folderExists = exports.getListDirs = exports.writeFile = exports.readFile = void 0;
+exports.fileExists = exports.folderExists = exports.getListDirs = exports.writeFile = exports.readFile = void 0;
 const promises_1 = __nccwpck_require__(943);
 Object.defineProperty(exports, "readFile", ({ enumerable: true, get: function () { return promises_1.readFile; } }));
 Object.defineProperty(exports, "writeFile", ({ enumerable: true, get: function () { return promises_1.writeFile; } }));
@@ -3463,6 +3463,16 @@ const folderExists = async (path) => {
     }
 };
 exports.folderExists = folderExists;
+const fileExists = async (path) => {
+    try {
+        await (0, promises_1.access)(path);
+        return true;
+    }
+    catch {
+        return false;
+    }
+};
+exports.fileExists = fileExists;
 
 
 /***/ }),
@@ -3625,6 +3635,8 @@ const main = async () => {
             console.info(`🗑️  ${page_name} has been removed, skipping...`);
             continue;
         }
+        if (!(await (0, fs_util_1.fileExists)(`${page_dir}/page.md`)))
+            throw new Error(`❌ Page.md not found in page ${page_name}`);
         const meta = await (0, validators_1.validateMeta)(`${page_dir}/meta.json`);
         const file_history = await (0, api_1.getCommitHistoryFile)(GITHUB_REPOSITORY, `${page_dir}/page.md`);
         const existing_meta = index_data[page_name];
