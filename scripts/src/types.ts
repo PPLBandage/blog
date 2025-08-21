@@ -80,4 +80,5 @@ interface File {
     blob_url: string;
     raw_url: string;
     contents_url: string;
+    previous_filename?: string;
 }

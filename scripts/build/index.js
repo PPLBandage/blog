@@ -3602,21 +3602,27 @@ if (process.env.GITHUB_ACTIONS !== 'true') {
     process.chdir('..');
 }
 const main = async () => {
+    const index_data = JSON.parse((await (0, fs_util_1.readFile)('index.json')).toString());
     const affected_files = await (0, api_1.commitDiff)(GITHUB_REPOSITORY, COMMIT_SHA);
     const affected_pages = affected_files.files.filter(file => file.filename.startsWith(PAGES_DIR));
     if (affected_pages.length === 0) {
         console.info('✔️  No affected pages found, exiting...');
         return;
     }
-    const index_data = JSON.parse((await (0, fs_util_1.readFile)('index.json')).toString());
-    for (const page of affected_pages) {
-        const page_name = page.filename.split('/').at(1);
+    const renamed = affected_pages
+        .filter(page => page.status === 'renamed')
+        .map(page => page.previous_filename.split('/').at(1));
+    const affected_pages_names = Array.from(new Set([
+        ...affected_pages.map(page => page.filename.split('/').at(1)),
+        ...renamed
+    ]));
+    for (const page_name of affected_pages_names) {
         const page_dir = `${PAGES_DIR}/${page_name}`;
         console.info(`☕ Processing ${page_name}...`);
-        const page_exists = (0, fs_util_1.folderExists)(page_dir);
+        const page_exists = await (0, fs_util_1.folderExists)(page_dir);
         if (!page_exists) {
             delete index_data[page_name];
-            console.info(`🗑️ ${page_name} has been removed, skipping...`);
+            console.info(`🗑️  ${page_name} has been removed, skipping...`);
             continue;
         }
         const meta = await (0, validators_1.validateMeta)(`${page_dir}/meta.json`);
@@ -3640,7 +3646,7 @@ const main = async () => {
         console.info(`✔️  Processed page ${page_name}`);
     }
     (0, fs_util_1.writeFile)('index.json', JSON.stringify(index_data, null, 4));
-    console.info(`✔️  Processed ${affected_pages.length} pages`);
+    console.info(`✔️  Processed ${affected_pages_names.length} pages`);
 };
 void main();
 
