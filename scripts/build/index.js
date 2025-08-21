@@ -3642,7 +3642,10 @@ const main = async () => {
         const existing_meta = index_data[page_name];
         const author = existing_meta?.author || file_history.reverse().at(0)?.author.login;
         const existing_collaborators = existing_meta?.collaborators || [];
-        const collaborators = Array.from(new Set(existing_collaborators.concat(file_history.map(h => h.author.login))));
+        const collaborators = Array.from(new Set([
+            ...existing_collaborators,
+            ...file_history.map(h => h.author.login)
+        ]));
         const created = existing_meta?.created ||
             file_history.reverse().at(0)?.commit.author.date;
         index_data[page_name] = {

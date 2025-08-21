@@ -60,11 +60,10 @@ const main = async () => {
         const existing_collaborators: string[] =
             existing_meta?.collaborators || [];
         const collaborators = Array.from(
-            new Set(
-                existing_collaborators.concat(
-                    file_history.map(h => h.author.login!)
-                )
-            )
+            new Set([
+                ...existing_collaborators,
+                ...file_history.map(h => h.author.login!)
+            ])
         );
 
         const created =
