@@ -3402,7 +3402,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.getLatestWorkflow = exports.commitDiff = exports.getCommitHistoryFile = void 0;
+exports.getWorkflows = exports.commitDiff = exports.getCommitHistoryFile = void 0;
 const dotenv_1 = __importDefault(__nccwpck_require__(889));
 dotenv_1.default.config();
 const GITHUB_API_URL = process.env.GITHUB_API_URL ?? 'https://api.github.com';
@@ -3415,23 +3415,23 @@ const getCommitHistoryFile = async (repo_url, file_path) => {
 };
 exports.getCommitHistoryFile = getCommitHistoryFile;
 const commitDiff = async (repo_url, sha) => {
-    const workflow_runs = await (0, exports.getLatestWorkflow)(repo_url);
+    const workflow_runs = await (0, exports.getWorkflows)(repo_url);
     if (workflow_runs.total_count === 0)
         throw new Error('Latest workflow not found');
-    const head_sha = workflow_runs.workflow_runs.at(0)?.head_sha;
+    const head_sha = workflow_runs.workflow_runs.find(w => w.name.toLowerCase().includes('index')).head_sha;
     const response = await fetch(`${GITHUB_API_URL}/repos/${repo_url}/compare/${head_sha}...${sha}`, { headers: { Authorization: `Bearer ${TOKEN}` } });
     if (!response.ok)
         throw new Error(`Cannot load commit diff: ${response.status}`);
     return await response.json();
 };
 exports.commitDiff = commitDiff;
-const getLatestWorkflow = async (repo_url) => {
+const getWorkflows = async (repo_url) => {
     const response = await fetch(`${GITHUB_API_URL}/repos/${repo_url}/actions/workflows/index.yml/runs?status=success&per_page=1`, { headers: { Authorization: `Bearer ${TOKEN}` } });
     if (!response.ok)
         throw new Error(`Cannot get latest workflow run: ${response.status}`);
     return await response.json();
 };
-exports.getLatestWorkflow = getLatestWorkflow;
+exports.getWorkflows = getWorkflows;
 
 
 /***/ }),
@@ -3628,17 +3628,16 @@ const main = async () => {
         const meta = await (0, validators_1.validateMeta)(`${page_dir}/meta.json`);
         const file_history = await (0, api_1.getCommitHistoryFile)(GITHUB_REPOSITORY, `${page_dir}/page.md`);
         const existing_meta = index_data[page_name];
-        const author = existing_meta?.author ||
-            file_history.reverse().at(0)?.commit.author.name;
+        const author = existing_meta?.author || file_history.reverse().at(0)?.author.login;
         const existing_collaborators = existing_meta?.collaborators || [];
-        const collaborators = Array.from(new Set(existing_collaborators.concat(file_history.map(h => h.commit.author.name))));
+        const collaborators = Array.from(new Set(existing_collaborators.concat(file_history.map(h => h.author.login))));
         const created = existing_meta?.created ||
             file_history.reverse().at(0)?.commit.author.date;
         index_data[page_name] = {
             title: meta.title,
             description: meta.description,
             created,
-            author: meta.override_author ?? author,
+            author: meta.override_author || author,
             collaborators: collaborators.filter(i => i !== author),
             category: meta.category ?? '',
             pinned: meta.pinned ?? false

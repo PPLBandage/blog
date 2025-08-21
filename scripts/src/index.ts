@@ -52,15 +52,14 @@ const main = async () => {
 
         const existing_meta = index_data[page_name];
         const author: string =
-            existing_meta?.author ||
-            file_history.reverse().at(0)?.commit.author.name;
+            existing_meta?.author || file_history.reverse().at(0)?.author.login;
 
         const existing_collaborators: string[] =
             existing_meta?.collaborators || [];
         const collaborators = Array.from(
             new Set(
                 existing_collaborators.concat(
-                    file_history.map(h => h.commit.author.name!)
+                    file_history.map(h => h.author.login!)
                 )
             )
         );
@@ -73,7 +72,7 @@ const main = async () => {
             title: meta.title,
             description: meta.description,
             created,
-            author: meta.override_author ?? author,
+            author: meta.override_author || author,
             collaborators: collaborators.filter(i => i !== author),
             category: meta.category ?? '',
             pinned: meta.pinned ?? false

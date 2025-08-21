@@ -24,11 +24,14 @@ export const commitDiff = async (
     repo_url: string,
     sha: string
 ): Promise<CompareRootObject> => {
-    const workflow_runs = await getLatestWorkflow(repo_url);
+    const workflow_runs = await getWorkflows(repo_url);
     if (workflow_runs.total_count === 0)
         throw new Error('Latest workflow not found');
 
-    const head_sha = workflow_runs.workflow_runs.at(0)?.head_sha;
+    const head_sha = workflow_runs.workflow_runs.find(w =>
+        w.name.toLowerCase().includes('index')
+    )!.head_sha;
+
     const response = await fetch(
         `${GITHUB_API_URL}/repos/${repo_url}/compare/${head_sha}...${sha}`,
         { headers: { Authorization: `Bearer ${TOKEN}` } }
@@ -40,9 +43,7 @@ export const commitDiff = async (
     return await response.json();
 };
 
-export const getLatestWorkflow = async (
-    repo_url: string
-): Promise<WorkflowRuns> => {
+export const getWorkflows = async (repo_url: string): Promise<WorkflowRuns> => {
     const response = await fetch(
         `${GITHUB_API_URL}/repos/${repo_url}/actions/workflows/index.yml/runs?status=success&per_page=1`,
         { headers: { Authorization: `Bearer ${TOKEN}` } }
