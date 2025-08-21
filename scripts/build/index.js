@@ -3394,17 +3394,17 @@ exports.tuple = create$1;
 /***/ }),
 
 /***/ 569:
-/***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getWorkflows = exports.commitDiff = exports.getCommitHistoryFile = void 0;
-const dotenv_1 = __importDefault(__nccwpck_require__(889));
-dotenv_1.default.config();
+if (process.env.GITHUB_ACTIONS !== 'true') {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const dotenv = __nccwpck_require__(889);
+    dotenv.config();
+}
 const GITHUB_API_URL = process.env.GITHUB_API_URL ?? 'https://api.github.com';
 const TOKEN = process.env.TOKEN;
 const getCommitHistoryFile = async (repo_url, file_path) => {
@@ -3577,7 +3577,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"name":"dotenv","version":"17.2.1","d
 /******/ 		// Execute the module function
 /******/ 		var threw = true;
 /******/ 		try {
-/******/ 			__webpack_modules__[moduleId].call(module.exports, module, module.exports, __nccwpck_require__);
+/******/ 			__webpack_modules__[moduleId](module, module.exports, __nccwpck_require__);
 /******/ 			threw = false;
 /******/ 		} finally {
 /******/ 			if(threw) delete __webpack_module_cache__[moduleId];

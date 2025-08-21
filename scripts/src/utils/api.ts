@@ -1,6 +1,10 @@
-import dotenv from 'dotenv';
 import { CommitInfo, CompareRootObject, WorkflowRuns } from '../types';
-dotenv.config();
+
+if (process.env.GITHUB_ACTIONS !== 'true') {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const dotenv = require('dotenv');
+    dotenv.config();
+}
 
 const GITHUB_API_URL = process.env.GITHUB_API_URL ?? 'https://api.github.com';
 const TOKEN = process.env.TOKEN;
