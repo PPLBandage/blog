@@ -77,7 +77,6 @@
 
 
 ## Видеопример
-
 [Смотреть видео](/static/tutorials/video.mp4)
 
 <Tip> 
