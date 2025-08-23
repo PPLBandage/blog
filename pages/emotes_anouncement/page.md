@@ -1,238 +1,238 @@
 ## Использование эмоутов
-Эмоуты можно вставлять **только** в описание повязки, используя формат `:emote:`, где `emote` — название. Например, `:klass:` превратиться в <Emote name="klass"></Emote>  , и так далее.
+Эмоуты можно вставлять **только** в описание повязки, используя формат `:emote:`, где `emote` — название. Например, `:klass:` превратиться в <Emote name="klass" height="2em"></Emote>  , и так далее.
 
 ## Список доступных эмоутов
 Ниже вы найдете список всех доступных для использования эмоутов (Список может пополняться).
 
-:3adpblx: – <Emote name="3adpblx"></Emote>  
-:4am: – <Emote name="4am"></Emote>  
-:4header: – <Emote name="4header"></Emote>  
-:5chomp: – <Emote name="5chomp"></Emote>  
-:actually: – <Emote name="actually"></Emote>  
-:alienunpleased: – <Emote name="alienunpleased"></Emote>  
-:amnyamshto: – <Emote name="amnyamshto"></Emote>  
-:aware: – <Emote name="aware"></Emote>  
-:aweewoo: – <Emote name="aweewoo"></Emote>  
-:balls: – <Emote name="balls"></Emote>  
-:based: – <Emote name="based"></Emote>  
-:batchest: – <Emote name="batchest"></Emote>  
-:besplatno: – <Emote name="besplatno"></Emote>  
-:binoculars: – <Emote name="binoculars"></Emote>  
-:blyatge: – <Emote name="blyatge"></Emote>  
-:bogged: – <Emote name="bogged"></Emote>  
-:booo: – <Emote name="booo"></Emote>  
-:bror: – <Emote name="bror"></Emote>  
-:bruh: – <Emote name="bruh"></Emote>  
-:catdespair: – <Emote name="catdespair"></Emote>  
-:catnerd: – <Emote name="catnerd"></Emote>  
-:catsittingverycomfortable: – <Emote name="catsittingverycomfortable"></Emote>  
-:catwow: – <Emote name="catwow"></Emote>  
-:chainik: – <Emote name="chainik"></Emote>  
-:cinema: – <Emote name="cinema"></Emote>  
-:clueless: – <Emote name="clueless"></Emote>  
-:cmonbruh: – <Emote name="cmonbruh"></Emote>  
-:concerned: – <Emote name="concerned"></Emote>  
-:copium: – <Emote name="copium"></Emote>  
-:cot: – <Emote name="cot"></Emote>  
-:dankiheart: – <Emote name="dankiheart"></Emote>  
-:discussion: – <Emote name="discussion"></Emote>  
-:durka: – <Emote name="durka"></Emote>  
-:eh: – <Emote name="eh"></Emote>  
-:eshrug: – <Emote name="eshrug"></Emote>  
-:etokomu: – <Emote name="etokomu"></Emote>  
-:feelsamazingman: – <Emote name="feelsamazingman"></Emote>  
-:feelsbadman: – <Emote name="feelsbadman"></Emote>  
-:feelsdankman: – <Emote name="feelsdankman"></Emote>  
-:feelsdonkman: – <Emote name="feelsdonkman"></Emote>  
-:feelsdyslexiaman: – <Emote name="feelsdyslexiaman"></Emote>  
-:feelsgoodman: – <Emote name="feelsgoodman"></Emote>  
-:feelsokayman: – <Emote name="feelsokayman"></Emote>  
-:feelsstrongman: – <Emote name="feelsstrongman"></Emote>  
-:feelsweirdman: – <Emote name="feelsweirdman"></Emote>  
-:flushe: – <Emote name="flushe"></Emote>  
-:flushed: – <Emote name="flushed"></Emote>  
-:forsenbased: – <Emote name="forsenbased"></Emote>  
-:forsenbirthday: – <Emote name="forsenbirthday"></Emote>  
-:forsencd: – <Emote name="forsencd"></Emote>  
-:forsendespair: – <Emote name="forsendespair"></Emote>  
-:forsene: – <Emote name="forsene"></Emote>  
-:forsenkek: – <Emote name="forsenkek"></Emote>  
-:forsenlevel: – <Emote name="forsenlevel"></Emote>  
-:forsenscoots: – <Emote name="forsenscoots"></Emote>  
-:forsensmug: – <Emote name="forsensmug"></Emote>  
-:forsenwhat: – <Emote name="forsenwhat"></Emote>  
-:frame023: – <Emote name="frame023"></Emote>  
-:frame145: – <Emote name="frame145"></Emote>  
-:gachigasm: – <Emote name="gachigasm"></Emote>  
-:gagaga: – <Emote name="gagaga"></Emote>  
-:gasp: – <Emote name="gasp"></Emote>  
-:gigachad: – <Emote name="gigachad"></Emote>  
-:goodmorning: – <Emote name="goodmorning"></Emote>  
-:guh: – <Emote name="guh"></Emote>  
-:gva: – <Emote name="gva"></Emote>  
-:handshakege: – <Emote name="handshakege"></Emote>  
-:hmm: – <Emote name="hmm"></Emote>  
-:homi: – <Emote name="homi"></Emote>  
-:jaba: – <Emote name="jaba"></Emote>  
-:jebaited: – <Emote name="jebaited"></Emote>  
-:judge: – <Emote name="judge"></Emote>  
-:kapp: – <Emote name="kapp"></Emote>  
-:kappa: – <Emote name="kappa"></Emote>  
-:kavo: – <Emote name="kavo"></Emote>  
-:kekbomb: – <Emote name="kekbomb"></Emote>  
-:kekehands: – <Emote name="kekehands"></Emote>  
-:kekvv: – <Emote name="kekvv"></Emote>  
-:kekw: – <Emote name="kekw"></Emote>  
-:kekwait: – <Emote name="kekwait"></Emote>  
-:kkomrade: – <Emote name="kkomrade"></Emote>  
-:klass: – <Emote name="klass"></Emote>  
-:kot: – <Emote name="kot"></Emote>  
-:ktowho: – <Emote name="ktowho"></Emote>  
-:ladno: – <Emote name="ladno"></Emote>  
-:life: – <Emote name="life"></Emote>  
-:lole: – <Emote name="lole"></Emote>  
-:look: – <Emote name="look"></Emote>  
-:lor: – <Emote name="lor"></Emote>  
-:lule: – <Emote name="lule"></Emote>  
-:lulw: – <Emote name="lulw"></Emote>  
-:lunasleep: – <Emote name="lunasleep"></Emote>  
-:lurkpotato: – <Emote name="lurkpotato"></Emote>  
-:maaaaan: – <Emote name="maaaaan"></Emote>  
-:mandarino: – <Emote name="mandarino"></Emote>  
-:megalul: – <Emote name="megalul"></Emote>  
-:mmmmm: – <Emote name="mmmmm"></Emote>  
-:mojang: – <Emote name="mojang"></Emote>  
-:monka: – <Emote name="monka"></Emote>  
-:monkacat: – <Emote name="monkacat"></Emote>  
-:monkahmm: – <Emote name="monkahmm"></Emote>  
-:monkalaugh: – <Emote name="monkalaugh"></Emote>  
-:monkaomega: – <Emote name="monkaomega"></Emote>  
-:monkatos: – <Emote name="monkatos"></Emote>  
-:monkauomega: – <Emote name="monkauomega"></Emote>  
-:myhonestreaction: – <Emote name="myhonestreaction"></Emote>  
-:navstare: – <Emote name="navstare"></Emote>  
-:neklass: – <Emote name="neklass"></Emote>  
-:nespravedlivo: – <Emote name="nespravedlivo"></Emote>  
-:noo: – <Emote name="noo"></Emote>  
-:nothanks: – <Emote name="nothanks"></Emote>  
-:nyehehehe: – <Emote name="nyehehehe"></Emote>  
-:oh: – <Emote name="oh"></Emote>  
-:ok: – <Emote name="ok"></Emote>  
-:okak: – <Emote name="okak"></Emote>  
-:okayeg: – <Emote name="okayeg"></Emote>  
-:okcat: – <Emote name="okcat"></Emote>  
-:okey: – <Emote name="okey"></Emote>  
-:omegalul: – <Emote name="omegalul"></Emote>  
-:opachki: – <Emote name="opachki"></Emote>  
-:otag: – <Emote name="otag"></Emote>  
-:otagcinema: – <Emote name="otagcinema"></Emote>  
-:otagl: – <Emote name="otagl"></Emote>  
-:otagshrug: – <Emote name="otagshrug"></Emote>  
-:ozonf: – <Emote name="ozonf"></Emote>  
-:pag: – <Emote name="pag"></Emote>  
-:pagchomp: – <Emote name="pagchomp"></Emote>  
-:pagman: – <Emote name="pagman"></Emote>  
-:pause: – <Emote name="pause"></Emote>  
-:pausechamp: – <Emote name="pausechamp"></Emote>  
-:peepobuilder: – <Emote name="peepobuilder"></Emote>  
-:peepochill: – <Emote name="peepochill"></Emote>  
-:peepocomfy: – <Emote name="peepocomfy"></Emote>  
-:peepodetective: – <Emote name="peepodetective"></Emote>  
-:peepodown: – <Emote name="peepodown"></Emote>  
-:peepofarmer: – <Emote name="peepofarmer"></Emote>  
-:peepofriendship: – <Emote name="peepofriendship"></Emote>  
-:peepohappy: – <Emote name="peepohappy"></Emote>  
-:peepohuy: – <Emote name="peepohuy"></Emote>  
-:peepoknife: – <Emote name="peepoknife"></Emote>  
-:peepolove: – <Emote name="peepolove"></Emote>  
-:peepolurk: – <Emote name="peepolurk"></Emote>  
-:peepookay: – <Emote name="peepookay"></Emote>  
-:peepopoo: – <Emote name="peepopoo"></Emote>  
-:peeporain: – <Emote name="peeporain"></Emote>  
-:peepos: – <Emote name="peepos"></Emote>  
-:peeposad: – <Emote name="peeposad"></Emote>  
-:peeposhy: – <Emote name="peeposhy"></Emote>  
-:peeposit: – <Emote name="peeposit"></Emote>  
-:peepowtf: – <Emote name="peepowtf"></Emote>  
-:pepea: – <Emote name="pepea"></Emote>  
-:pepehands: – <Emote name="pepehands"></Emote>  
-:pepelaugh: – <Emote name="pepelaugh"></Emote>  
-:pepepains: – <Emote name="pepepains"></Emote>  
-:pepew: – <Emote name="pepew"></Emote>  
-:pepey: – <Emote name="pepey"></Emote>  
-:pepog: – <Emote name="pepog"></Emote>  
-:pipec: – <Emote name="pipec"></Emote>  
-:plenk: – <Emote name="plenk"></Emote>  
-:plink: – <Emote name="plink"></Emote>  
-:pokupaitedengi: – <Emote name="pokupaitedengi"></Emote>  
-:pominki: – <Emote name="pominki"></Emote>  
-:pooshka: – <Emote name="pooshka"></Emote>  
-:porosad: – <Emote name="porosad"></Emote>  
-:potfriend: – <Emote name="potfriend"></Emote>  
-:potunpleased: – <Emote name="potunpleased"></Emote>  
-:ppl: – <Emote name="ppl"></Emote>  
-:pwgood: – <Emote name="pwgood"></Emote>  
-:pwgood3: – <Emote name="pwgood3"></Emote>  
-:pwgood4: – <Emote name="pwgood4"></Emote>  
-:pwgoodbased: – <Emote name="pwgoodbased"></Emote>  
-:pwgoodchel: – <Emote name="pwgoodchel"></Emote>  
-:pwgooddespair: – <Emote name="pwgooddespair"></Emote>  
-:pwgoodg: – <Emote name="pwgoodg"></Emote>  
-:pwgoodgun: – <Emote name="pwgoodgun"></Emote>  
-:pwgoodhappy: – <Emote name="pwgoodhappy"></Emote>  
-:pwgoodinsane: – <Emote name="pwgoodinsane"></Emote>  
-:pwgoodl: – <Emote name="pwgoodl"></Emote>  
-:pwgoodlife: – <Emote name="pwgoodlife"></Emote>  
-:pwgoodpag: – <Emote name="pwgoodpag"></Emote>  
-:pwgoodsilly: – <Emote name="pwgoodsilly"></Emote>  
-:pwgoodsleep: – <Emote name="pwgoodsleep"></Emote>  
-:pwgoodsmug: – <Emote name="pwgoodsmug"></Emote>  
-:pwgoodsussy: – <Emote name="pwgoodsussy"></Emote>  
-:pwgoodwoke: – <Emote name="pwgoodwoke"></Emote>  
-:pwgoodyou: – <Emote name="pwgoodyou"></Emote>  
-:realization: – <Emote name="realization"></Emote>  
-:rebyata: – <Emote name="rebyata"></Emote>  
-:rekfordsoy: – <Emote name="rekfordsoy"></Emote>  
-:rilaveoff: – <Emote name="rilaveoff"></Emote>  
-:sad: – <Emote name="sad"></Emote>  
-:sadchamp: – <Emote name="sadchamp"></Emote>  
-:sadge: – <Emote name="sadge"></Emote>  
-:saj: – <Emote name="saj"></Emote>  
-:saturday: – <Emote name="saturday"></Emote>  
-:shto: – <Emote name="shto"></Emote>  
-:sillystare: – <Emote name="sillystare"></Emote>  
-:sisyphus: – <Emote name="sisyphus"></Emote>  
-:something: – <Emote name="something"></Emote>  
-:spravedlivo: – <Emote name="spravedlivo"></Emote>  
-:stare: – <Emote name="stare"></Emote>  
-:suka: – <Emote name="suka"></Emote>  
-:sussy: – <Emote name="sussy"></Emote>  
-:taa: – <Emote name="taa"></Emote>  
-:taah: – <Emote name="taah"></Emote>  
-:teatime: – <Emote name="teatime"></Emote>  
-:tf: – <Emote name="tf"></Emote>  
-:thinking: – <Emote name="thinking"></Emote>  
-:tomfoolery: – <Emote name="tomfoolery"></Emote>  
-:trefis: – <Emote name="trefis"></Emote>  
-:trihard: – <Emote name="trihard"></Emote>  
-:tuwka: – <Emote name="tuwka"></Emote>  
-:upal: – <Emote name="upal"></Emote>  
-:ura: – <Emote name="ura"></Emote>  
-:uuh: – <Emote name="uuh"></Emote>  
-:vislaud: – <Emote name="vislaud"></Emote>  
-:waiting: – <Emote name="waiting"></Emote>  
-:watching: – <Emote name="watching"></Emote>  
-:weirdchamp: – <Emote name="weirdchamp"></Emote>  
-:widepeepohappy: – <Emote name="widepeepohappy"></Emote>  
-:widepeeposad: – <Emote name="widepeeposad"></Emote>  
-:wires: – <Emote name="wires"></Emote>  
-:wot: – <Emote name="wot"></Emote>  
-:wtf: – <Emote name="wtf"></Emote>  
-:zaebok: – <Emote name="zaebok"></Emote>  
-:zbs: – <Emote name="zbs"></Emote>  
-:zoloto: – <Emote name="zoloto"></Emote>  
-:zulul: – <Emote name="zulul"></Emote>  
+:3adpblx: – <Emote name="3adpblx" height="2em"></Emote>  
+:4am: – <Emote name="4am" height="2em"></Emote>  
+:4header: – <Emote name="4header" height="2em"></Emote>  
+:5chomp: – <Emote name="5chomp" height="2em"></Emote>  
+:actually: – <Emote name="actually" height="2em"></Emote>  
+:alienunpleased: – <Emote name="alienunpleased" height="2em"></Emote>  
+:amnyamshto: – <Emote name="amnyamshto" height="2em"></Emote>  
+:aware: – <Emote name="aware" height="2em"></Emote>  
+:aweewoo: – <Emote name="aweewoo" height="2em"></Emote>  
+:balls: – <Emote name="balls" height="2em"></Emote>  
+:based: – <Emote name="based" height="2em"></Emote>  
+:batchest: – <Emote name="batchest" height="2em"></Emote>  
+:besplatno: – <Emote name="besplatno" height="2em"></Emote>  
+:binoculars: – <Emote name="binoculars" height="2em"></Emote>  
+:blyatge: – <Emote name="blyatge" height="2em"></Emote>  
+:bogged: – <Emote name="bogged" height="2em"></Emote>  
+:booo: – <Emote name="booo" height="2em"></Emote>  
+:bror: – <Emote name="bror" height="2em"></Emote>  
+:bruh: – <Emote name="bruh" height="2em"></Emote>  
+:catdespair: – <Emote name="catdespair" height="2em"></Emote>  
+:catnerd: – <Emote name="catnerd" height="2em"></Emote>  
+:catsittingverycomfortable: – <Emote name="catsittingverycomfortable" height="2em"></Emote>  
+:catwow: – <Emote name="catwow" height="2em"></Emote>  
+:chainik: – <Emote name="chainik" height="2em"></Emote>  
+:cinema: – <Emote name="cinema" height="2em"></Emote>  
+:clueless: – <Emote name="clueless" height="2em"></Emote>  
+:cmonbruh: – <Emote name="cmonbruh" height="2em"></Emote>  
+:concerned: – <Emote name="concerned" height="2em"></Emote>  
+:copium: – <Emote name="copium" height="2em"></Emote>  
+:cot: – <Emote name="cot" height="2em"></Emote>  
+:dankiheart: – <Emote name="dankiheart" height="2em"></Emote>  
+:discussion: – <Emote name="discussion" height="2em"></Emote>  
+:durka: – <Emote name="durka" height="2em"></Emote>  
+:eh: – <Emote name="eh" height="2em"></Emote>  
+:eshrug: – <Emote name="eshrug" height="2em"></Emote>  
+:etokomu: – <Emote name="etokomu" height="2em"></Emote>  
+:feelsamazingman: – <Emote name="feelsamazingman" height="2em"></Emote>  
+:feelsbadman: – <Emote name="feelsbadman" height="2em"></Emote>  
+:feelsdankman: – <Emote name="feelsdankman" height="2em"></Emote>  
+:feelsdonkman: – <Emote name="feelsdonkman" height="2em"></Emote>  
+:feelsdyslexiaman: – <Emote name="feelsdyslexiaman" height="2em"></Emote>  
+:feelsgoodman: – <Emote name="feelsgoodman" height="2em"></Emote>  
+:feelsokayman: – <Emote name="feelsokayman" height="2em"></Emote>  
+:feelsstrongman: – <Emote name="feelsstrongman" height="2em"></Emote>  
+:feelsweirdman: – <Emote name="feelsweirdman" height="2em"></Emote>  
+:flushe: – <Emote name="flushe" height="2em"></Emote>  
+:flushed: – <Emote name="flushed" height="2em"></Emote>  
+:forsenbased: – <Emote name="forsenbased" height="2em"></Emote>  
+:forsenbirthday: – <Emote name="forsenbirthday" height="2em"></Emote>  
+:forsencd: – <Emote name="forsencd" height="2em"></Emote>  
+:forsendespair: – <Emote name="forsendespair" height="2em"></Emote>  
+:forsene: – <Emote name="forsene" height="2em"></Emote>  
+:forsenkek: – <Emote name="forsenkek" height="2em"></Emote>  
+:forsenlevel: – <Emote name="forsenlevel" height="2em"></Emote>  
+:forsenscoots: – <Emote name="forsenscoots" height="2em"></Emote>  
+:forsensmug: – <Emote name="forsensmug" height="2em"></Emote>  
+:forsenwhat: – <Emote name="forsenwhat" height="2em"></Emote>  
+:frame023: – <Emote name="frame023" height="2em"></Emote>  
+:frame145: – <Emote name="frame145" height="2em"></Emote>  
+:gachigasm: – <Emote name="gachigasm" height="2em"></Emote>  
+:gagaga: – <Emote name="gagaga" height="2em"></Emote>  
+:gasp: – <Emote name="gasp" height="2em"></Emote>  
+:gigachad: – <Emote name="gigachad" height="2em"></Emote>  
+:goodmorning: – <Emote name="goodmorning" height="2em"></Emote>  
+:guh: – <Emote name="guh" height="2em"></Emote>  
+:gva: – <Emote name="gva" height="2em"></Emote>  
+:handshakege: – <Emote name="handshakege" height="2em"></Emote>  
+:hmm: – <Emote name="hmm" height="2em"></Emote>  
+:homi: – <Emote name="homi" height="2em"></Emote>  
+:jaba: – <Emote name="jaba" height="2em"></Emote>  
+:jebaited: – <Emote name="jebaited" height="2em"></Emote>  
+:judge: – <Emote name="judge" height="2em"></Emote>  
+:kapp: – <Emote name="kapp" height="2em"></Emote>  
+:kappa: – <Emote name="kappa" height="2em"></Emote>  
+:kavo: – <Emote name="kavo" height="2em"></Emote>  
+:kekbomb: – <Emote name="kekbomb" height="2em"></Emote>  
+:kekehands: – <Emote name="kekehands" height="2em"></Emote>  
+:kekvv: – <Emote name="kekvv" height="2em"></Emote>  
+:kekw: – <Emote name="kekw" height="2em"></Emote>  
+:kekwait: – <Emote name="kekwait" height="2em"></Emote>  
+:kkomrade: – <Emote name="kkomrade" height="2em"></Emote>  
+:klass: – <Emote name="klass" height="2em"></Emote>  
+:kot: – <Emote name="kot" height="2em"></Emote>  
+:ktowho: – <Emote name="ktowho" height="2em"></Emote>  
+:ladno: – <Emote name="ladno" height="2em"></Emote>  
+:life: – <Emote name="life" height="2em"></Emote>  
+:lole: – <Emote name="lole" height="2em"></Emote>  
+:look: – <Emote name="look" height="2em"></Emote>  
+:lor: – <Emote name="lor" height="2em"></Emote>  
+:lule: – <Emote name="lule" height="2em"></Emote>  
+:lulw: – <Emote name="lulw" height="2em"></Emote>  
+:lunasleep: – <Emote name="lunasleep" height="2em"></Emote>  
+:lurkpotato: – <Emote name="lurkpotato" height="2em"></Emote>  
+:maaaaan: – <Emote name="maaaaan" height="2em"></Emote>  
+:mandarino: – <Emote name="mandarino" height="2em"></Emote>  
+:megalul: – <Emote name="megalul" height="2em"></Emote>  
+:mmmmm: – <Emote name="mmmmm" height="2em"></Emote>  
+:mojang: – <Emote name="mojang" height="2em"></Emote>  
+:monka: – <Emote name="monka" height="2em"></Emote>  
+:monkacat: – <Emote name="monkacat" height="2em"></Emote>  
+:monkahmm: – <Emote name="monkahmm" height="2em"></Emote>  
+:monkalaugh: – <Emote name="monkalaugh" height="2em"></Emote>  
+:monkaomega: – <Emote name="monkaomega" height="2em"></Emote>  
+:monkatos: – <Emote name="monkatos" height="2em"></Emote>  
+:monkauomega: – <Emote name="monkauomega" height="2em"></Emote>  
+:myhonestreaction: – <Emote name="myhonestreaction" height="2em"></Emote>  
+:navstare: – <Emote name="navstare" height="2em"></Emote>  
+:neklass: – <Emote name="neklass" height="2em"></Emote>  
+:nespravedlivo: – <Emote name="nespravedlivo" height="2em"></Emote>  
+:noo: – <Emote name="noo" height="2em"></Emote>  
+:nothanks: – <Emote name="nothanks" height="2em"></Emote>  
+:nyehehehe: – <Emote name="nyehehehe" height="2em"></Emote>  
+:oh: – <Emote name="oh" height="2em"></Emote>  
+:ok: – <Emote name="ok" height="2em"></Emote>  
+:okak: – <Emote name="okak" height="2em"></Emote>  
+:okayeg: – <Emote name="okayeg" height="2em"></Emote>  
+:okcat: – <Emote name="okcat" height="2em"></Emote>  
+:okey: – <Emote name="okey" height="2em"></Emote>  
+:omegalul: – <Emote name="omegalul" height="2em"></Emote>  
+:opachki: – <Emote name="opachki" height="2em"></Emote>  
+:otag: – <Emote name="otag" height="2em"></Emote>  
+:otagcinema: – <Emote name="otagcinema" height="2em"></Emote>  
+:otagl: – <Emote name="otagl" height="2em"></Emote>  
+:otagshrug: – <Emote name="otagshrug" height="2em"></Emote>  
+:ozonf: – <Emote name="ozonf" height="2em"></Emote>  
+:pag: – <Emote name="pag" height="2em"></Emote>  
+:pagchomp: – <Emote name="pagchomp" height="2em"></Emote>  
+:pagman: – <Emote name="pagman" height="2em"></Emote>  
+:pause: – <Emote name="pause" height="2em"></Emote>  
+:pausechamp: – <Emote name="pausechamp" height="2em"></Emote>  
+:peepobuilder: – <Emote name="peepobuilder" height="2em"></Emote>  
+:peepochill: – <Emote name="peepochill" height="2em"></Emote>  
+:peepocomfy: – <Emote name="peepocomfy" height="2em"></Emote>  
+:peepodetective: – <Emote name="peepodetective" height="2em"></Emote>  
+:peepodown: – <Emote name="peepodown" height="2em"></Emote>  
+:peepofarmer: – <Emote name="peepofarmer" height="2em"></Emote>  
+:peepofriendship: – <Emote name="peepofriendship" height="2em"></Emote>  
+:peepohappy: – <Emote name="peepohappy" height="2em"></Emote>  
+:peepohuy: – <Emote name="peepohuy" height="2em"></Emote>  
+:peepoknife: – <Emote name="peepoknife" height="2em"></Emote>  
+:peepolove: – <Emote name="peepolove" height="2em"></Emote>  
+:peepolurk: – <Emote name="peepolurk" height="2em"></Emote>  
+:peepookay: – <Emote name="peepookay" height="2em"></Emote>  
+:peepopoo: – <Emote name="peepopoo" height="2em"></Emote>  
+:peeporain: – <Emote name="peeporain" height="2em"></Emote>  
+:peepos: – <Emote name="peepos" height="2em"></Emote>  
+:peeposad: – <Emote name="peeposad" height="2em"></Emote>  
+:peeposhy: – <Emote name="peeposhy" height="2em"></Emote>  
+:peeposit: – <Emote name="peeposit" height="2em"></Emote>  
+:peepowtf: – <Emote name="peepowtf" height="2em"></Emote>  
+:pepea: – <Emote name="pepea" height="2em"></Emote>  
+:pepehands: – <Emote name="pepehands" height="2em"></Emote>  
+:pepelaugh: – <Emote name="pepelaugh" height="2em"></Emote>  
+:pepepains: – <Emote name="pepepains" height="2em"></Emote>  
+:pepew: – <Emote name="pepew" height="2em"></Emote>  
+:pepey: – <Emote name="pepey" height="2em"></Emote>  
+:pepog: – <Emote name="pepog" height="2em"></Emote>  
+:pipec: – <Emote name="pipec" height="2em"></Emote>  
+:plenk: – <Emote name="plenk" height="2em"></Emote>  
+:plink: – <Emote name="plink" height="2em"></Emote>  
+:pokupaitedengi: – <Emote name="pokupaitedengi" height="2em"></Emote>  
+:pominki: – <Emote name="pominki" height="2em"></Emote>  
+:pooshka: – <Emote name="pooshka" height="2em"></Emote>  
+:porosad: – <Emote name="porosad" height="2em"></Emote>  
+:potfriend: – <Emote name="potfriend" height="2em"></Emote>  
+:potunpleased: – <Emote name="potunpleased" height="2em"></Emote>  
+:ppl: – <Emote name="ppl" height="2em"></Emote>  
+:pwgood: – <Emote name="pwgood" height="2em"></Emote>  
+:pwgood3: – <Emote name="pwgood3" height="2em"></Emote>  
+:pwgood4: – <Emote name="pwgood4" height="2em"></Emote>  
+:pwgoodbased: – <Emote name="pwgoodbased" height="2em"></Emote>  
+:pwgoodchel: – <Emote name="pwgoodchel" height="2em"></Emote>  
+:pwgooddespair: – <Emote name="pwgooddespair" height="2em"></Emote>  
+:pwgoodg: – <Emote name="pwgoodg" height="2em"></Emote>  
+:pwgoodgun: – <Emote name="pwgoodgun" height="2em"></Emote>  
+:pwgoodhappy: – <Emote name="pwgoodhappy" height="2em"></Emote>  
+:pwgoodinsane: – <Emote name="pwgoodinsane" height="2em"></Emote>  
+:pwgoodl: – <Emote name="pwgoodl" height="2em"></Emote>  
+:pwgoodlife: – <Emote name="pwgoodlife" height="2em"></Emote>  
+:pwgoodpag: – <Emote name="pwgoodpag" height="2em"></Emote>  
+:pwgoodsilly: – <Emote name="pwgoodsilly" height="2em"></Emote>  
+:pwgoodsleep: – <Emote name="pwgoodsleep" height="2em"></Emote>  
+:pwgoodsmug: – <Emote name="pwgoodsmug" height="2em"></Emote>  
+:pwgoodsussy: – <Emote name="pwgoodsussy" height="2em"></Emote>  
+:pwgoodwoke: – <Emote name="pwgoodwoke" height="2em"></Emote>  
+:pwgoodyou: – <Emote name="pwgoodyou" height="2em"></Emote>  
+:realization: – <Emote name="realization" height="2em"></Emote>  
+:rebyata: – <Emote name="rebyata" height="2em"></Emote>  
+:rekfordsoy: – <Emote name="rekfordsoy" height="2em"></Emote>  
+:rilaveoff: – <Emote name="rilaveoff" height="2em"></Emote>  
+:sad: – <Emote name="sad" height="2em"></Emote>  
+:sadchamp: – <Emote name="sadchamp" height="2em"></Emote>  
+:sadge: – <Emote name="sadge" height="2em"></Emote>  
+:saj: – <Emote name="saj" height="2em"></Emote>  
+:saturday: – <Emote name="saturday" height="2em"></Emote>  
+:shto: – <Emote name="shto" height="2em"></Emote>  
+:sillystare: – <Emote name="sillystare" height="2em"></Emote>  
+:sisyphus: – <Emote name="sisyphus" height="2em"></Emote>  
+:something: – <Emote name="something" height="2em"></Emote>  
+:spravedlivo: – <Emote name="spravedlivo" height="2em"></Emote>  
+:stare: – <Emote name="stare" height="2em"></Emote>  
+:suka: – <Emote name="suka" height="2em"></Emote>  
+:sussy: – <Emote name="sussy" height="2em"></Emote>  
+:taa: – <Emote name="taa" height="2em"></Emote>  
+:taah: – <Emote name="taah" height="2em"></Emote>  
+:teatime: – <Emote name="teatime" height="2em"></Emote>  
+:tf: – <Emote name="tf" height="2em"></Emote>  
+:thinking: – <Emote name="thinking" height="2em"></Emote>  
+:tomfoolery: – <Emote name="tomfoolery" height="2em"></Emote>  
+:trefis: – <Emote name="trefis" height="2em"></Emote>  
+:trihard: – <Emote name="trihard" height="2em"></Emote>  
+:tuwka: – <Emote name="tuwka" height="2em"></Emote>  
+:upal: – <Emote name="upal" height="2em"></Emote>  
+:ura: – <Emote name="ura" height="2em"></Emote>  
+:uuh: – <Emote name="uuh" height="2em"></Emote>  
+:vislaud: – <Emote name="vislaud" height="2em"></Emote>  
+:waiting: – <Emote name="waiting" height="2em"></Emote>  
+:watching: – <Emote name="watching" height="2em"></Emote>  
+:weirdchamp: – <Emote name="weirdchamp" height="2em"></Emote>  
+:widepeepohappy: – <Emote name="widepeepohappy" height="2em"></Emote>  
+:widepeeposad: – <Emote name="widepeeposad" height="2em"></Emote>  
+:wires: – <Emote name="wires" height="2em"></Emote>  
+:wot: – <Emote name="wot" height="2em"></Emote>  
+:wtf: – <Emote name="wtf" height="2em"></Emote>  
+:zaebok: – <Emote name="zaebok" height="2em"></Emote>  
+:zbs: – <Emote name="zbs" height="2em"></Emote>  
+:zoloto: – <Emote name="zoloto" height="2em"></Emote>  
+:zulul: – <Emote name="zulul" height="2em"></Emote>  
 
 ### Предложение эмоутов
-Если вы недосчитались своего любимого эмоута, можете обратиться к [нам](/contacts) и мы добавим ваш эмоут <Emote name="pwgood3"></Emote>  .  
+Если вы недосчитались своего любимого эмоута, можете обратиться к [нам](/contacts) и мы добавим ваш эмоут <Emote name="pwgood3" height="2em"></Emote>  .  
 *Ваш эмоут будет добавлен только в том случае, если он не нарушает правила сайта!* 
