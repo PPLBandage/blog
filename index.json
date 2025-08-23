@@ -8,6 +8,15 @@
             "GhostDEV159"
         ],
         "category": "",
+        "pinned": true
+    },
+    "test": {
+        "title": "Бебра",
+        "description": "лелелелеле",
+        "created": "2025-08-23T11:42:45Z",
+        "author": "Andcool-Systems",
+        "collaborators": [],
+        "category": "",
         "pinned": false
     }
 }
