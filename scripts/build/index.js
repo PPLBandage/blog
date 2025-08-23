@@ -3491,7 +3491,8 @@ const metaSchema = (0, yup_1.object)({
     description: (0, yup_1.string)().optional(),
     category: (0, yup_1.string)().optional(),
     pinned: (0, yup_1.boolean)().optional(),
-    override_author: (0, yup_1.string)().optional()
+    override_author: (0, yup_1.string)().optional(),
+    override_date: (0, yup_1.date)().optional()
 });
 const validateMeta = async (path) => {
     try {
@@ -3651,7 +3652,7 @@ const main = async () => {
         index_data[page_name] = {
             title: meta.title,
             description: meta.description,
-            created,
+            created: meta.override_date ?? created,
             author: meta.override_author || author,
             collaborators: collaborators.filter(i => i !== author),
             category: meta.category ?? '',

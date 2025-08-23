@@ -73,7 +73,7 @@ const main = async () => {
         index_data[page_name] = {
             title: meta.title,
             description: meta.description,
-            created,
+            created: meta.override_date ?? created,
             author: meta.override_author || author,
             collaborators: collaborators.filter(i => i !== author),
             category: meta.category ?? '',

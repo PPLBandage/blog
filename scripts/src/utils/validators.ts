@@ -1,4 +1,4 @@
-import { object, string, boolean } from 'yup';
+import { object, string, boolean, date } from 'yup';
 import { readFile } from './fs-util';
 
 const metaSchema = object({
@@ -6,7 +6,8 @@ const metaSchema = object({
     description: string().optional(),
     category: string().optional(),
     pinned: boolean().optional(),
-    override_author: string().optional()
+    override_author: string().optional(),
+    override_date: date().optional()
 });
 
 export const validateMeta = async (path: string) => {
