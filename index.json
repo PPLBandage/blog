@@ -1,7 +1,7 @@
 {
     "bandage": {
         "title": "Создание повязки",
-        "description": "На этой странице описан весь процесс создания повязки со всеми особенностями.",
+        "description": "На этой странице описан весь процесс создания повязки со всеми особенностями",
         "created": "2025-08-22T12:51:24Z",
         "author": "Andcool-Systems",
         "collaborators": [
@@ -23,6 +23,15 @@
         "title": "Эмоуты в описаниях",
         "description": "Теперь вы можете использовать эмоуты прямо в описаниях повязки!",
         "created": "2025-07-29T15:30:07.000Z",
+        "author": "Andcool-Systems",
+        "collaborators": [],
+        "category": "",
+        "pinned": false
+    },
+    "blog-announcement": {
+        "title": "Встречайте блог проекта!",
+        "description": "Здесь будут публиковаться все самые важные новости и обновления, связанные с проектом PPLBandage",
+        "created": "2025-08-23T22:18:24Z",
         "author": "Andcool-Systems",
         "collaborators": [],
         "category": "",
