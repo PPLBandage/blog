@@ -1,7 +1,7 @@
 {
     "bandage": {
         "title": "Создание повязки",
-        "description": "На этой странице описан **весь** процесс создания повязки со всеми особенностями. [Сайт эндкула нооооу вей](https://andcool.ru/)",
+        "description": "На этой странице описан весь процесс создания повязки со всеми особенностями.",
         "created": "2025-08-22T12:51:24Z",
         "author": "Andcool-Systems",
         "collaborators": [
@@ -12,13 +12,13 @@
         "category": "",
         "pinned": true
     },
-    "test": {
-        "title": "Бебра",
-        "description": "лелелелеле",
-        "created": "2025-08-23T11:42:45Z",
+    "сcolorable-bandage": {
+        "title": "Окрашиваемые повязки",
+        "description": "Тут вы найдёте всё, что нужно знать о процессе окрашивания повязок и как сделать это правильно",
+        "created": "2025-08-23T12:03:06Z",
         "author": "Andcool-Systems",
         "collaborators": [],
         "category": "",
-        "pinned": false
+        "pinned": true
     }
 }
