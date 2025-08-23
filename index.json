@@ -18,5 +18,14 @@
         "collaborators": [],
         "category": "",
         "pinned": true
+    },
+    "emotes_anouncement": {
+        "title": "Эмоуты в описаниях",
+        "description": "Теперь вы можете использовать эмоуты прямо в описаниях повязки!",
+        "created": "2025-07-29T15:30:07.000Z",
+        "author": "Andcool-Systems",
+        "collaborators": [],
+        "category": "",
+        "pinned": false
     }
 }
