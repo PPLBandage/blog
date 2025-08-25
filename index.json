@@ -4,7 +4,9 @@
         "description": "На этой странице описан весь процесс создания повязки со всеми особенностями",
         "created": "2025-08-22T12:51:24Z",
         "author": "Andcool-Systems",
-        "collaborators": [],
+        "collaborators": [
+            "GhostDEV159"
+        ],
         "category": "",
         "pinned": true
     },
