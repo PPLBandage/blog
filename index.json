@@ -45,5 +45,14 @@
         "collaborators": [],
         "category": "",
         "pinned": false
+    },
+    "accounts-removal": {
+        "title": "Небольшое обновление сайта",
+        "description": "Возможность удалять аккаунты и зачем это нужно.",
+        "created": "2025-09-01T21:01:56Z",
+        "author": "Andcool-Systems",
+        "collaborators": [],
+        "category": "",
+        "pinned": false
     }
 }
