@@ -54,5 +54,14 @@
         "collaborators": [],
         "category": "",
         "pinned": false
+    },
+    "new-main-page": {
+        "title": "Новая главная страница",
+        "description": "Как **попасть на нее** и как нам пришла эта идея",
+        "created": "2025-08-31T18:17:55.000Z",
+        "author": "Andcool-Systems",
+        "collaborators": [],
+        "category": "",
+        "pinned": false
     }
 }
