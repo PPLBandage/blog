@@ -77,7 +77,7 @@
 
 
 ## Видеопример
-<video src="/static/tutorials/video.mp4" width="100%" type="video/mp4" controls="true"></video>
+<video src="/static/tutorials/video.mp4" width="50%" type="video/mp4" controls="true"></video>
 
 <Tip> 
 При создании повязки есть возможность загрузить отдельное изображение для тонких рук скина. Правила создания повязки остаются те же, как и для обычной повязки, за исключением того, что обе повязки должны иметь одинаковую высоту.
