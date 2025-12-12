@@ -7,7 +7,7 @@
         "collaborators": [
             "GhostDEV159"
         ],
-        "category": "",
+        "category": "Туториал",
         "pinned": true
     },
     "colorable": {
@@ -16,7 +16,7 @@
         "created": "2025-08-23T12:12:39Z",
         "author": "Andcool-Systems",
         "collaborators": [],
-        "category": "",
+        "category": "Туториал",
         "pinned": true
     },
     "emotes-announcement": {
@@ -25,7 +25,7 @@
         "created": "2025-07-29T15:30:07.000Z",
         "author": "Andcool-Systems",
         "collaborators": [],
-        "category": "",
+        "category": "Обновление",
         "pinned": false
     },
     "blog-announcement": {
@@ -34,7 +34,7 @@
         "created": "2025-08-23T22:18:24Z",
         "author": "Andcool-Systems",
         "collaborators": [],
-        "category": "",
+        "category": "Обновление",
         "pinned": false
     },
     "new-registration-providers": {
@@ -43,7 +43,7 @@
         "created": "2025-07-20T15:30:07.000Z",
         "author": "Andcool-Systems",
         "collaborators": [],
-        "category": "",
+        "category": "Обновление",
         "pinned": false
     },
     "accounts-removal": {
@@ -61,7 +61,7 @@
         "created": "2025-08-31T18:17:55.000Z",
         "author": "Andcool-Systems",
         "collaborators": [],
-        "category": "",
+        "category": "Обновление",
         "pinned": false
     },
     "badges": {
@@ -70,7 +70,7 @@
         "created": "2025-11-20T17:12:51Z",
         "author": "Andcool-Systems",
         "collaborators": [],
-        "category": "",
+        "category": "Обновление",
         "pinned": false
     }
 }
